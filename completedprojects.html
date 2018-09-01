@@ -3,15 +3,20 @@
 <head>
   <meta charset='utf-8'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
   <title>Completed Projects</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
   <body class="completedProjects">
-    <h1 class = "completedProjectsHeader">Completed Projects</h1>
+    <div class="header">
+      <h1 class = "completedProjectsHeader">Completed Projects</h1>
+    </div>
+    <div class="content">
     <h2>Back-end/Full-Stack Projects</h2>
     <ul>
       <li>
         <h3 class="projectHeader">SilverSpoon 🥄</h3>
-        <p class="projectDescription">A system-design project aiming to optimize a service resembling the reservations component of an Open Table-like service. The project had three goals in mind:
+        <p>A system-design project aiming to optimize a service resembling the reservations component of an Open Table-like service. The project had three goals in mind:
           <ol>
             <li>
             Generate scripts to seed a database with at least 10 million restaurants and 10 million reservations in as little time as possible.
@@ -39,8 +44,9 @@
       <li>
         <h3>Battleship 🚢</h3>
         <p>A one-player classic battleship game featuring an AI built for a company coding challenge.</p>
-
-        <a class="btn btn-primary" href="battleship/index.html">Play Battleship</a>
+        <div class="battleshipbutton">
+          <a class="btn btn-primary gamebutton" id="battleshipbutton" href="battleship/index.html">Play Battleship</a>
+        </div>
 
         <p>Techs used: Vanilla JavaScript(ES6), Object-Oriented Programming</p>
       </li>
@@ -48,10 +54,13 @@
         <h3>Minesweeper 💣</h3>
         <p>A simple Minesweeper game built using React/Redux. Players have the option of picking three difficulties.</p>
 
-        <a class="btn btn-primary" href="https://www.youtube.com/watch?v=mVXy2LT2jDs&feature=youtu.be">Watch me demo Minesweeper</a>
+        <div class="minesweeperbutton">
+          <a class="btn btn-primary gamebutton" href="https://www.youtube.com/watch?v=mVXy2LT2jDs&feature=youtu.be">Watch me demo Minesweeper</a>
+        </div>
 
         <p>Techs used: React, Redux</p>
       </li>
       
     </ul>
+  </div>
   </body>
