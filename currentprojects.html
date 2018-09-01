@@ -4,12 +4,15 @@
   <meta charset='utf-8'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <title>Current Projects</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
 </head>
-  <body class="ongoingProjectsBg">
-    <h1 class = "ongoingProjectsHeader">Current Projects</h1>
+  <body class="currentProjects">
+    <div class="header">
+      <h1 class = "ongoingProjectsHeader">Current Projects</h1>
+    </div>
+    <div class="content" id="currentProjectsContent" >
     <h2>Full-Stack App</h2>
-    <ul>
-      <li>
         <h3>Dancer Data Retriever 🕺💃</h3>
         <p>By far my favorite application that I have built, since it involves heavy handling of data from a video game (Dance Dance Revolution) that has played a major role in my life, including being one of the reasons I started programming. My app scrapes data from about 1600 HTML pages and allows a user to
         both store their own scores, and, using the scraped data, to see their where their scores fall on the player spectrum using some nice graphs.</p>
@@ -17,17 +20,13 @@
         <img src="images/ddrSample.png" class="ddrPhoto"></img>
 
         <p>Tech stack: React and React-vis, Express, MongoDB</p>
-
-      </li>
-    </ul>
     <h2>Mini-Game App</h2>
-    <ul>
-      <li>
         <h3>Block Barrage 👇🀆 </h3>
-        <p>An addictive block game based on "Mario's Puzzle Party" from the Mario Party series. Building this application using React was very logic-heavy, so required thorough testing as I built each step of the logic.
-        You can 
-        <a href="https://block-barrage.herokuapp.com/">Click here to play it yourself! </a></p>
+        <p>An addictive block game based on "Mario's Puzzle Party" from the Mario Party series. Building this application using React was very logic-heavy, so required thorough testing as I built each step of the logic.</p>
+        <div class="blockbarragebutton">
+          <a class="btn btn-primary" href="https://block-barrage.herokuapp.com/">Play Block Barrage</a>
+        </div>
 
         <p>Techs used: React, Jest, Heroku for deployment</p>
-      </li>
+  </div>
   </body>

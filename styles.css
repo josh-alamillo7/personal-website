@@ -30,7 +30,7 @@ h1{
 	color: #66cea8;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 100;
-	font-size: 22px;
+	font-size: 30px;
 	text-align: center;
 }
 
@@ -39,7 +39,7 @@ h1{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: auto;
-  	padding: 75px 16px 16px 16px;
+  	padding: 15px 16px 16px 16px;
   	height: 100%;
   	width: 90%;
   	max-width: 1080px;
@@ -156,12 +156,17 @@ h2{
 }
 /*--------------------------*/
 
-/*FOR COMPLETED PROJECTS*/
+/*FOR GAME BUTTONS ON PROJECT PAGES*/
+.minesweeperbutton{
+	text-align: center;
+}
 
-.projectDescription {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 22px;
+.battleshipbutton{
+	text-align: center;
+}
+
+.blockbarragebutton{
+	text-align: center;
 }
 
 
