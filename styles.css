@@ -1,0 +1,165 @@
+body {
+  background-color: #e4e3e3;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+/*FOR THE STICKY HEADER*/
+.header {
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+  	padding-top: 20px;
+  	padding-bottom: 10px;
+}
+
+.logo{
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	width: 80px;
+}
+
+h1{
+	color: #66cea8;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 22px;
+	text-align: center;
+}
+
+.content {
+	margin-top: 120px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+  	padding: 75px 16px 16px 16px;
+  	height: 100%;
+  	width: 90%;
+  	max-width: 1080px;
+}
+
+.sticky {
+	position: fixed;
+  	top: 0;
+	margin: auto;
+  	width: 100%
+}
+
+.sticky + .content {
+  	padding-top: 75px;
+}
+/*--------------------------*/
+
+
+
+/*FOR THE ABOUT SECTION*/
+.about{
+	width: 60%;
+	height: auto;
+	float: left;
+
+}
+
+h2{
+	color: #416f45;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 30px;
+}
+
+.aboutText{
+	color: #363636;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	line-height: 30px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+#aboutList{
+	margin-top: -10px;
+}
+#aboutList li{
+	color: #416f45;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 20px;
+	margin-left: 45px;
+}
+/*--------------------------*/
+
+
+/*FOR PROJECT AND RESUME BUTTON LINKS*/
+#joshLinks{
+	margin-top: 75px;
+	width: 40%;
+	float: left;
+	height: 325px;
+}
+
+#joshButtons{
+	list-style: none;
+	padding: 15px;
+
+}
+
+#joshButtons li{
+	margin-bottom: 15px;
+	text-align: center;
+	line-height: 60px;
+}
+
+#joshButtons li a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	display: block;
+	background:#66cea8;
+	border-radius: 25px;
+}
+/*--------------------------*/
+
+
+/*FOR CONTACT LINKS AND LINKEDIN*/
+#joshContact{
+	float: left;
+	text-align: center;
+	width: 60%;
+	height: auto;
+}
+
+#joshContact a{
+	text-decoration: none;
+	color: #66cea8;
+	font-weight: 400;
+}
+
+#joshContact a:hover{
+	text-decoration: underline;
+}
+
+#joshLinked{
+	float: left;
+	text-align: center;
+	width: 40%;
+	padding-top: 80px;
+}
+/*--------------------------*/
+
+
+
+
+
+
+
+

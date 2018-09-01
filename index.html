@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<!-- for lightbox youtube video??
+https://codepen.io/darcyvoutt/pen/MaamWg -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120137890-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120137890-1');
+  </script>
+
+  <meta charset='utf-8'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <title>Josh Alamillo</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+
+<body>
+  <div class="header" id="joshHeader">
+    <h1>Josh Alamillo&nbsp;&nbsp;👨🏻‍💻&nbsp;&nbsp;Software Engineer</h1>
+  </div>
+
+  <div class="content" id="joshContent">
+    <div class="about" id="joshAbout">
+      <h2>🗒&nbsp;&nbsp;&nbsp;ABOUT</h2>
+      <p class="aboutText">
+        Hi there, thanks for visiting my website! I'm a full-stack JavaScript web developer. I enjoy all the logic that goes into programming and enjoy building apps using technologies like:
+        <ul id="aboutList">
+          <li>React</li>
+          <li>Server tools: Express/Node</li>
+          <li>SQL databases: Postgres, MySQL</li>
+          <li>No-SQL databases: MongoDB</li>
+          <li>Testing frameworks: Jest, Mocha, Chai</li>
+          <li>Back-end development tools: Artillery, Redis</li>
+          <li>Front-end development tools: HTML5, CSS3, Bootstrap, Webpack</li>
+        </ul>
+      </p>
+    </div>
+    <div id="joshLinks">
+      <ul class="buttons" id="joshButtons">
+        <li><a href="currentprojects.html">CURRENT PROJECTS</a></li>
+        <li><a href="completedprojects.html">COMPLETED PROJECTS</a></li>
+        <li><a href="images/resume.pdf">RESUME</a></li>
+      </ul>
+    </div>
+    <div id="joshContact">
+      <h2>📲&nbsp;&nbsp;&nbsp;CONTACT</h2>
+      <p class="aboutText">
+        If you would like to reach out about any potential opportunities, or would simply like to get in contact, I'd love to hear from you! Feel free to send an e-mail to 
+        <a href="mailto:josh.alamillo7@gmail.com">josh.alamillo7@gmail.com</a> or check out my LinkedIn 👉.
+      </p>
+    </div>
+    <div id="joshLinked">
+            <a href="https://www.linkedin.com/in/josh-alamillo/"><img src="images/betterlinkedIn.png" width="125px"></a>
+    </div>
+  </div>
+
+
+
+  <script type="text/javascript">
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+
+    // Get the header
+    var header = document.getElementById("joshHeader");
+
+    // Get the offset position of the navbar
+    var sticky = header.offsetTop;
+
+    // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+      header.classList.add("sticky");
+    }
+    else {
+      header.classList.remove("sticky");
+    }
+  } 
+  </script>
+</body>
+</html>
